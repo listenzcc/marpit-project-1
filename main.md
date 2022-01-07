@@ -24,11 +24,12 @@ math: katex
 
 -   [Paper Presentation](#paper-presentation)
 -   [Toc](#toc)
+-   [Toc](#toc-1)
 -   [Background & Motivation](#background--motivation)
     -   [Sources in NeuroScience](#sources-in-neuroscience)
     -   [Source Separation](#source-separation)
     -   [Multivariate Analysis - Why](#multivariate-analysis---why)
-    -   [Multivariate Analysis - How](#multivariate-analysis---how)
+    -   [Multivariate Analysis - Others](#multivariate-analysis---others)
     -   [Multivariate Analysis - GED](#multivariate-analysis---ged)
 -   [Mathematical & Statistical](#mathematical--statistical)
     -   [Math of GED](#math-of-ged)
@@ -105,7 +106,7 @@ Rather, the argument is that progress in neuroscience will be accelerated by shi
 
 ---
 
-## Multivariate Analysis - How
+## Multivariate Analysis - Others
 
 -   PCA
 
@@ -134,13 +135,21 @@ Rather, the argument is that progress in neuroscience will be accelerated by shi
 
 GED as a tool for denoising, dimension reduction, and source separation of multichannel data has several advantages.
 
--   GED is based on specifying hypotheses;
--   GED allows for inferential statistics to determine whether a component is significant;
--   GED has only a few key researcher-guided analysis choices, which makes it easy to learn, apply, and adapt to new situations;
--   GED requires no spatial or anatomical constraints;
--   GED allows for individual differences in topographies;
--   GED is deterministic and non-iterative;
--   GED has a long history of applications in statistics, machine learning, engineering, and signal processing.
+-   **Hypotheses Driven**:
+
+    -   GED is based on specifying hypotheses;
+    -   GED allows for inferential statistics to determine whether a component is significant;
+
+-   **ConstraintLess**:
+
+    -   GED has only a few key researcher-guided analysis choices;
+    -   GED requires no spatial or anatomical constraints;
+    -   GED allows for individual differences in topographies;
+
+-   **Easy to Implement**:
+
+    -   GED is deterministic and non-iterative;
+    -   GED has a long history of applications in statistics, machine learning, engineering, and signal processing.
 
 ---
 
@@ -178,7 +187,7 @@ it drives
 
 $$\lambda = 1$$
 
-what distribution $lambda$ follows?
+what distribution does $\lambda$ follow?
 
 -   Normal distribution? Absolutely No.
 -   Chi-squares distribution? Possible, but not always.
